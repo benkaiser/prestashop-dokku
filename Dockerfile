@@ -51,5 +51,7 @@ VOLUME /var/www/html/modules
 VOLUME /var/www/html/themes
 VOLUME /var/www/html/override
 
+EXPOSE 80
+
 COPY config_files/docker_run.sh /tmp/
 CMD ["/tmp/docker_run.sh"]
