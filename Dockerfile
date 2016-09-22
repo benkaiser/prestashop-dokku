@@ -3,11 +3,11 @@ FROM php:5.6-apache
 MAINTAINER Thomas Nabord <thomas.nabord@prestashop.com>
 
 ENV PS_DOMAIN prestashop.local
-ENV DB_SERVER dokku-mariadb-agad
+ENV DB_SERVER host
 ENV DB_PORT 3306
 ENV DB_NAME prestashop
-ENV DB_USER mariadb
-ENV DB_PASSWD f1580dbd3c589672
+ENV DB_USER admin
+ENV DB_PASSWD password
 ENV ADMIN_MAIL demo@prestashop.com
 ENV ADMIN_PASSWD prestashop_demo
 ENV PS_LANGUAGE en
